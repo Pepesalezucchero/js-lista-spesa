@@ -8,3 +8,18 @@ console.log(userListaSpesa);
 
 //vado a creare la lista aggiungendo i LI ad HTML
 const listaUL = document.getElementById("lista_spesa");
+
+//faccio apparire la lista della spesa su "carta" (modo di dire)
+//creo un ciclo
+
+let i = 0
+while (i < userListaSpesa.length) {
+
+    //singolo elemento dell'array
+    let userAcquisto = userListaSpesa[i];
+    console.log(userAcquisto);
+
+    
+
+    i++
+}
