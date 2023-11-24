@@ -19,7 +19,11 @@ while (i < userListaSpesa.length) {
     let userAcquisto = userListaSpesa[i];
     console.log(userAcquisto);
 
-    
+    //creazione LI
+    const elementLI = document.createElement("li");
+    elementLI.append(userAcquisto);
+    listaUL.append(elementLI);
 
-    i++
+    //condizione di fine ciclo
+    i++;
 }
